@@ -198,7 +198,7 @@ The input format is the same as that of `kbd'."
     (delete-window)
     (when (string= shell-pop-window-position "bottom")
       (select-window shell-pop-last-window)))
-  (switch-to-buffer shell-pop-last-buffer))
+  (pop-to-buffer shell-pop-last-buffer))
 
 (provide 'shell-pop)
 
